@@ -1,0 +1,128 @@
+
+h1{
+    font-family: 'Archivo', sans-serif;
+    color:blanchedalmond;
+    text-align:center;
+    text-transform: capitalize;
+    text-decoration:underline goldenrod;
+   
+}
+
+h1:hover{
+    text-transform: uppercase;
+}
+
+#background1{
+    background-image:url(resources/storm\ clouds.jpeg) ;
+    opacity: 0.6;
+ background-size: 100%;
+    padding:100px;
+    position:relative;
+   
+
+
+
+}
+
+#background2{
+    background-image:url(resources/Grey_sunrise_over_farmland_-_geograph.org.uk_-_1516718.jpg) ;
+    opacity;
+ background-size: 100%;
+    padding:100px;
+    position:relative;
+}
+
+nav{
+    padding: 0;
+    margin:0;
+    background-size: 100%;
+    position: relative;
+}
+ ul{
+ color: white;
+ position:relative;
+ display:inline-block;
+    background-color:black;
+    height:20px;
+    width:100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;  
+}
+
+li{
+    display:inline;
+    padding-left:50px;
+
+}
+
+li:hover{
+    text-transform: uppercase;
+}
+
+#blue-box{
+    display: inline-block;
+    position: fixed;
+    padding-top:25px;
+    width: 200px;
+    height:50px;
+    font-family:monospace;
+    background-color: blue;
+    text-align: center;
+    vertical-align: center;
+    text-decoration: wavy;
+    border:2px solid black;
+    border-radius: 20px;
+    transition: 1s ease-in-out;
+
+}
+
+#blue-box:hover{
+    font-size: 30px;
+}
+
+#pink-box{
+    display: inline-block;
+    padding-top: 25px;
+    width: 200px;
+    height:50px;
+    font-family:monospace;
+    background-color:pink;
+    text-align: center;
+    vertical-align: center;
+    text-decoration: wavy;
+    border:2px solid black;
+    border-radius: 20px;
+    transition: 1s ease-in-out;
+    position: fixed;
+}
+#pink-box:hover{
+font-size: 30px;
+text-align: center;
+
+}
+
+  #purple-box {
+    display: inline-block;
+    padding-top: 25px;
+    width: 200px;
+    height:50px;
+    font-family:monospace;
+    background-color:blueviolet;
+    text-align: center;
+    vertical-align: center;
+    text-decoration: wavy;
+    border:2px solid black;
+    border-radius: 20px;
+    transition: 1s ease-in-out;
+    position:fixed;
+
+  } 
+#purple-box:hover{
+    font-size:30px;
+}
+}
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:red;
+}
